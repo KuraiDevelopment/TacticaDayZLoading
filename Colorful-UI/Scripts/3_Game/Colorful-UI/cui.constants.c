@@ -10,7 +10,7 @@ string GetRandomBackground()
 		"Colorful-UI/gui/textures/loading_screens/CUI2-BG3.edds"
 	};
 	// If you add more images be sure to change the image count. 
-	const int IMAGES_COUNT = 3;
+	const int IMAGES_COUNT = 10;
 	int bgIndex = Math.RandomInt(0, IMAGES_COUNT - 1);
 	return images[bgIndex];
 }
@@ -38,13 +38,13 @@ class GameOverScreen
 // SOCIALS & LINKS ---------------------------------------------------------------
 // Set your links Here
 class MenuURLS {
-	static string urlDiscord   = "#";
+	static string urlDiscord   = "https://discord.gg/mm4mSdq3Pd";
 	static string urlFacebook  = "#";
 	static string urlTwitter   = "#";
 	static string urlReddit    = "#";
 	static string urlYoutube   = "#";
 	static string urlWebsite   = "#"; 
-	static string urlPriorityQ = "#";
+	static string urlPriorityQ = "https://buy.stripe.com/cNi28r1qk0mE8DZ9cj6Na00";
 	static string urlCustom    = "#";
 }
 
