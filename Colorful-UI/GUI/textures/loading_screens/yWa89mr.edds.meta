@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2F430235E5229868}Colorful-UI/GUI/textures/loading_screens/yWa89mr.edds"
+ Author "kurai-dev"
+ ChangeDate -2028178565
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "yWa89mr.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
